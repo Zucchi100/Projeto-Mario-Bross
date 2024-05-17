@@ -170,8 +170,8 @@ textarea {
     }
 
     p {
-
-        display: none;
+        font-size: 17px;
+        width: 234px;
     }
 
     .caixa-mae {
@@ -204,7 +204,11 @@ width: 200px;
         margin: 20px 
         
     }
+.caixa-wpp {
 
+    right: 30px;
+
+}
     .header img {
 
         display: none;
