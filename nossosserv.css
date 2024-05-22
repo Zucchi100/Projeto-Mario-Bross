@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+
+    background-color: black;
+}
+
+
+
+.H1-principal {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 600px;
+    margin-right: auto;
+    margin-top: 55px;
+}
+
+.mudar-p {
+
+    font-size: 53px;
+    color: rgb(255, 0, 0);
+
+}
+
+.sec-eletrica {
+    display: flex;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+
+
+
+.img-eletrica {
+    width: 520px;
+    margin-top: 60px;
+
+}
+
+.eletrica {
+    margin-bottom: 50px;
+    color: #ffffff;
+    margin-left: 16px;
+    margin-bottom: -18px;
+    font-weight: 700;
+    font size: 100px;
+
+
+}
+
+.sec-cano {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 72px;
+
+
+}
+
+
+.cano {
+
+    color: #ffffff;
+    margin-left: 16px;
+    margin-bottom: -18px;
+
+
+}
+
+
+.img-cano {
+    width: 522px;
+}
+
+
+.sec-pintor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 72px;
+
+
+}
+
+.pintor {
+    color: #ffffff;
+    margin-left: 16px;
+    margin-bottom: -18px;
+}
+
+.img-pintor {
+
+    width: 522px;
+
+}
+
+.sec-reparos {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 72px;
+
+}
+
+.img-reparos {
+
+    width: 522px;
+
+}
+
+.reparos {
+
+    color: #ffffff;
+    margin-left: 16px;
+    margin-bottom: -18px;
+
+}
+
+.sec-banco {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.banco {
+
+    color: #ffffff;
+    margin-left: 16px;
+}
+
+.img-banco {
+
+    width: 522px;
+
+}
+
+.caixa-video {
+
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.caixa-wpp {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.todos {
+
+    color: rgb(226, 80, 22);
+    font-size: 50px;
+}
+.pp {
+
+font-size: 20px;
+
+}
+
+@media all and (max-width: 900px) {
+
+
+.H1-principal { 
+    display: grid;
+    margin-bottom: 40px;
+    margin-top: 112px;
+    font-size: 24px;
+    margin-left: 226px;        
+    line-height: 63px;
+}
+.mudar-p {
+
+    font-size: 61px;
+}
+
+
+.img-eletrica {
+    width: 500px;
+
+}
+
+
+.img-banco {
+
+    width: 500px;
+
+}
+
+
+.img-reparos {
+
+    width: 500px;
+
+}
+
+
+.img-pintor {
+
+    width: 500px;
+
+}
+
+
+.img-cano {
+    width: 500px;
+}
+
+
+}
+
+

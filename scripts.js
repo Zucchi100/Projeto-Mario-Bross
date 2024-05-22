@@ -17,3 +17,8 @@ function esconderform() {
    
 }
 
+
+setTimeout(function() {
+    alert ("\n Olá, Parabéns seu Problema será resolvido, quer saber sobre Nossos Serviços? Clique em Nosso Serviços, quer resolver seu Problema? Clique em Entrar em Contato, em breve responderemos!!")
+}, 5000);
+
