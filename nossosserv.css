@@ -10,8 +10,12 @@ body {
     background-color: black;
 }
 
-
-
+.caixa-wpp{
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+ }
 .H1-principal {
     display: flex;
     flex-direction: column;
@@ -50,7 +54,7 @@ body {
     margin-left: 16px;
     margin-bottom: -18px;
     font-weight: 700;
-    font size: 100px;
+    font-size:  100px;
 
 
 }
@@ -147,12 +151,6 @@ body {
     z-index: -1;
 }
 
-.caixa-wpp {
-    height: 60px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-}
 
 .mascara {
     height: 100%;
