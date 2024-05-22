@@ -7,7 +7,7 @@
 
 .logo-mario {
 
-    height: 101px;
+    height: 100px;
 }
 
 button {
@@ -22,9 +22,9 @@ button {
     font-weight: bold;
     margin-top: 30px;
     animation-name: botao;
-animation-duration: 2s;
+animation-duration: 0.8s;
 animation-iteration-count: infinite;
-animation-delay: 1s;
+animation-delay: 0.5s;
 animation-timing-function: ease-in-out;
 animation-direction: alternate;
 animation-fill-mode: none;
@@ -32,21 +32,22 @@ animation-play-state: running;
 }
 
 @keyframes botao {
-0% {
-height: 65px;
-width: 200px;
+    0% {
+    height: 65px;
+    width: 200px;
+    
+    }
+    
+    100% {
+    height: 60px;
+    width: 225px;
+    
+    
+    }
+    
+    
+    }
 
-}
-
-100% {
-height: 70px;
-width: 250px;
-
-
-}
-
-
-}
 
 button:hover {
 
@@ -108,21 +109,21 @@ p {
     font-size: 20px;
 }
 
-.caixa-wpp{
+.caixa-wpp {
     height: 60px;
     position: fixed;
     right: 20px;
     bottom: 20px;
-animation-name: pulsar;
+    animation-name: pulsar;
 animation-duration: 0.8s;
 animation-iteration-count: infinite;
-animation-delay: 1s;
+animation-delay: 0.5s;
 animation-timing-function: ease-in-out;
 animation-direction: alternate;
 animation-fill-mode: none;
 animation-play-state: running;
-
 }
+
 @keyframes pulsar {
     0% {
     height: 65px;
@@ -136,6 +137,7 @@ animation-play-state: running;
     
     
     }
+    
     
     }
 
@@ -219,8 +221,8 @@ textarea {
     }
 
     p {
-
-    
+        font-size: 17px;
+        width: 234px;
     }
 
     .caixa-mae {
@@ -253,7 +255,11 @@ width: 200px;
         margin: 20px 
         
     }
+.caixa-wpp {
 
+    right: 30px;
+
+}
     .header img {
 
         display: none;
@@ -267,3 +273,7 @@ width: 200px;
 
 
 }
+
+
+
+
