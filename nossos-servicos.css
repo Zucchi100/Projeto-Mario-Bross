@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     font-size: 20px;
     color: #ffffff;
-    margin-left: 495px;
+    margin-left: 600px;
     margin-right: auto;
     margin-top: 55px;
 }
@@ -259,26 +259,30 @@ font-size: 20px;
 }
 
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 800px) {
 
     p{
         font-size: 17px;
         width: 234px;
     }
+    .mudar-r {
+
+        margin-left: -82px;
+        font-size: 42px;
+
+    }
    
 
-
     .H1-principal { 
-    display: grid;
-    margin-bottom: 40px;
-    margin-top: 112px;
-    font-size: 24px;
-    margin-left: 226px;        
-    line-height: 63px;
+        margin-top: 129px;
+        display: grid;
+        align-items: center;
+        font-size: 16px;
+        margin-left: 282px;
 }
 .mudar-p {
 
-    font-size: 61px;
+    font-size: 35px;
 }
 
 
@@ -312,6 +316,27 @@ font-size: 20px;
 .img-cano {
     width: 500px;
 }
+
+.img-alarme {
+
+    width: 500px;
+
+}
+
+
+.img-cftv {
+
+
+    width: 500px;
+
+}
+
+.img-civil {
+
+    width: 500px;
+
+}
+
 
 
 }
