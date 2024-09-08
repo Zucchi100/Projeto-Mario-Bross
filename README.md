@@ -1,9 +1,16 @@
-<h1>douglas zucchi</h1>
+<h1 align="center">
+  Mario Bross</h1>
+<br>
+<h3 align="center">Estudo de HTML, CSS, Java Script e Responsividade.</h3>
 <br>
 <br>
-<h2>Projeto feito para um amigo utilizar em seu trabalho </h2>
-<h2> Projeto feito com responsividade</h2>
-<h2> utilizei tecnologias como:</h2>
-- HTML
-- CSS
-<img src="https://github.com/Zucchi100/douglas-zucchi/blob/main/img/Captura%20de%20Tela%20(8).png?raw=true">
+
+<div align="center">
+  <img width="800px" src="img/Novo Projeto (1).png"/>
+</div>
+<br>
+<div align="center">
+  
+  <p>Clique no MARIO para acessar o Deploy:</p>
+<a href="https://servicosgeraisds.netlify.app" target="_blank"><img width= "100" src="https://www.nintendo.com/eu/media/images/08_content_images/others_2/characterhubs/supermariohub/MarioHub_Overview_Mario_sideimg_mario.png"></a>
+</div>
